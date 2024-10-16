@@ -1,0 +1,58 @@
+.grid {
+    display:grid;
+   grid-template-columns: 570px 570px 570px;
+    column-gap: 10px;
+    row-gap: 30px;
+    grid-column-start: 1;
+}
+
+
+
+
+body {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 85px 32px; 
+    background-color: hsl(226.67deg 10.34% 17.06%);
+    min-width: 375px;
+    overflow: auto;
+    color: white;
+  }
+
+  
+
+    .sidebar {
+        position: fixed;
+        right: 0;
+        width: 400px;
+        height: 200px;
+        padding-right: 70px;
+        
+    }
+    .header{
+        padding: 1.5rem;
+    margin-block-end: 1.5rem;
+    display: flex;
+    position: relative;
+    background-color: rgba(59,62,72,255);
+    }
+    
+    .buttons-top button{
+        background-color:rgba(59,62,72,255) ;
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+        width: 30%;
+        
+    }
+
+    .buttons-bottom button{
+        background-color:rgba(59,62,72,255) ;
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+        width: 30%;
+        
+    }
